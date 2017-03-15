@@ -1,0 +1,87 @@
+@media screen and (min-width: 480px) {
+
+	.portfolio li {
+		float: left;
+		width: 45%;
+		margin: 2.5%;
+	}
+
+	.profile-photo {
+		float: left;
+		margin: 80px 5% 80px 0;
+	}
+
+	.aboutMe {
+		padding-top: 30px;
+	}
+
+  .primary {
+    width: 50%;
+    float: left;
+    padding-top: 30px;
+  }
+
+  .secondary {
+    width: 40%;
+    float: right;
+    padding-top: 30px;
+  }
+}
+
+@media screen and (min-width: 485px) and (max-width: 556px){
+	.portfolio li:nth-child(3n) {
+    clear: left;
+  }	
+}
+
+@media screen and (min-width: 606px) and (max-width: 660px){
+	.portfolio li:nth-child(3n) {
+    clear: left;
+  }
+ }	
+
+@media screen and (min-width: 660px){
+
+	.portfolio {
+		padding-top: 50px;
+	}
+
+	.portfolio li {
+		float: left;
+		width: 28.3333%;
+	}
+
+	.portfolio li:nth-child(4n) {
+    	clear: left;
+  	}
+
+  	.logo {
+  		float: left;
+  		margin-left: 5%;
+  		text-align: left;
+  		width: 45%;
+  	}
+
+  	h1 {
+  		font-size: 2em;
+  	}
+
+  	h2 {
+  		font-size: 0.9em;
+  		margin-bottom: 20px;
+  	}
+
+  	nav {
+  		float: right;
+  		background: none;
+  		margin-right: 5%;
+  		text-align: right;
+  		width: 45%;
+  		font-size: 1.125em;
+  	}
+
+  	header {
+  		border-bottom: 10px solid #949ebb;
+  	}
+
+}

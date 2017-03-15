@@ -1,0 +1,201 @@
+body {
+	background-color: #d7ddea;
+	font-family: 'Berkshire Swash';
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+
+.wrapperDiv {
+	max-width: 940px;
+	min-height: 600px;
+	font-weight: bold;
+	margin: 0 auto;
+	padding: 0 5%;
+	background: white;
+	color: #8e6b73;
+	overflow: auto;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+/******************
+HEADER
+*******************/
+
+header {
+	float: left;
+	padding: 10px 0 0 0;
+	width: 100%;
+	background: #8e6b73;
+    border-color: #949ebb;
+}
+
+.logo {
+	text-align: center;
+	margin: 0;
+}
+
+h1{
+	color: white;
+	font-size: 1.75em;
+	line-height: 0.8em;
+}
+
+h2{
+	color: white;
+	font-size: 0.9em;
+	margin: -7px 0 0;
+}
+
+nav 
+{
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
+	background: #949ebb;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	font-weight: bold;
+	padding: 10px 10px;
+}
+
+nav a, nav a:visited {
+	color: white;
+}
+
+nav a.selected, nav a:hover {
+	color:#2b2c3e;
+}
+
+/******************
+PORTFOLIO
+*******************/
+.portfolio {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.portfolio li {
+	float: left;
+	width: 95%;
+	margin: 5%;
+	margin-bottom: 0;
+}
+
+.portfolio li div {
+  margin: 0;
+  padding: 5%;
+}
+
+.description {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 1.125em;
+  	text-align: justify;
+}
+
+h3 {
+	margin-top: -10px;
+	color: #2b2c3e;
+}
+
+
+
+
+/******************
+FOOTER
+*******************/
+
+footer {
+	text-align: center;
+	clear: both;
+	background: #8e6b73;
+	color: white;
+}
+
+.footerText {
+	height: auto;
+	padding: 10px;
+}
+
+.forStickyFooter{
+	flex: 1;
+}
+
+
+/******************
+ABOUT
+*******************/
+
+.profile-photo {
+  display: block; 
+  max-width: 150px;
+  margin: 0 auto 30px;
+  border-radius: 100%;
+}
+
+.aboutMe {
+	text-align: center;
+}
+
+
+/******************
+CONTACT
+*******************/
+
+.contact-info {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.contact-info a {
+	display: block;
+	min-height: 20px;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	padding: 0 0 0 30px;
+	margin: 0 0 10px;
+	color: #8e6b73;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 1.1em;
+}
+
+.contact-info li.phone a {
+	background-image: url('../img/phone.png');
+}
+
+.contact-info li.mail a {
+	background-image: url('../img/gmail.png');
+}
+
+.contact-info li.facebook a {
+	background-image: url('../img/facebook.png');
+}
+
+.contact-info li.linkedin a {
+	background-image: url('../img/linkedin.png');
+}
+
+.secondary {
+	margin-top: 30px;
+}
