@@ -110,12 +110,13 @@ PORTFOLIO
 .description {
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 	font-size: 1.125em;
-  	text-align: justify;
+  	text-align: center;
 }
 
 h3 {
 	margin-top: -10px;
 	color: #2b2c3e;
+	text-align: center;
 }
 
 
