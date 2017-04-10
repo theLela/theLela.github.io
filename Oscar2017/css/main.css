@@ -233,6 +233,7 @@ h3:hover {
 3D TRANSITIONS & TRANSFORMS
 *********************************/
 
+/***********************************
 .container {
 	perspective: 700px;
 }
@@ -240,3 +241,4 @@ h3:hover {
 img {
 	transform: rotateY(10deg);
 }
+**************************************/
