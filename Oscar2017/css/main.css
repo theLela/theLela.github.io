@@ -29,7 +29,7 @@ HEADER
 *********************************/
 
 div#wraper-header {
-	background: url('img/header-background.jpg') repeat-x 0 0;
+	background: url('../img/header-background.jpg') repeat-x 0 0;
 	text-align: center;
 	border-bottom: 5px solid #857979;
 	position: relative;
