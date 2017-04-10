@@ -228,17 +228,3 @@ h3 {
 h3:hover {
 	transform: translate(20px, 0px);
 }
-
-/*********************************
-3D TRANSITIONS & TRANSFORMS
-*********************************/
-
-/***********************************
-.container {
-	perspective: 700px;
-}
-
-img {
-	transform: rotateY(10deg);
-}
-**************************************/
