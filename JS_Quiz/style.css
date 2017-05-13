@@ -1,0 +1,40 @@
+body{
+	text-align: center;
+	color: #DAE0F2;
+	margin: 0px auto 0px auto;
+	background-color: #111344;
+}
+
+.container{
+	width: 960px;
+	margin: 0px auto 0px auto;
+	background-color: #52154E;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.title{
+	margin-top: 0px;
+}
+
+.button{
+	background-color: #52154E;
+	color: #F9CFF2;
+	padding: 10px 30px;
+	border-radius: 3%;
+}
+
+.button:hover{
+	background-color: #744371;
+}
+
+.choice{
+	font-size: 1.25em;
+	font-weight: bold;
+}
+
+@media (max-width: 769px){
+	.container{
+		width: 100%;
+	}
+}
